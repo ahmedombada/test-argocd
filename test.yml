@@ -1,0 +1,8 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: example-secret
+type: Opaque
+stringData:
+  sample-secret: <path:helm/data/kebab/mysql#host>
+
