@@ -4,5 +4,5 @@ metadata:
   name: example-secret
 type: Opaque
 stringData:
-  sample-secret: <path:helm/data/kebab/mysql#host>
+  sample-secret: <path:/environments/data/development/apps/kebab/mysql/credentials#host>
 
