@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: example-secret
   annotations:
-    avp.kubernetes.io/path: "environments/data/development/apps/kebab/mysql/credentials"
+    avp.kubernetes.io/path: "environments/data/development/apps/kebab/test"
 type: Opaque
 stringData:
   sample-secret: <username>
