@@ -6,4 +6,4 @@ metadata:
     avp.kubernetes.io/path: "environments/data/development/apps/kebab/test"
 type: Opaque
 stringData:
-  sample-secret: <username>
+  sample-secret: <password>
