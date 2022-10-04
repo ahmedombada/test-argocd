@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: envar-demo
+  annotations:
+    avp.kubernetes.io/path: "environments/data/development/apps/kebab/test"
+spec:
+  containers:
+  - name: envar-demo-container
+    image: gcr.io/google-samples/node-hello:1.0
+    env:
+    - name: SECRET_FROM_VAULT
+      value: <password>
